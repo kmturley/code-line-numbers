@@ -1,6 +1,6 @@
 {
   "name": "code-line-numbers",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Adding line numbers for code, HighLight.js is supported too",
   "main": "./dist/code-line-numbers.js",
   "types": "./dist/code-line-numbers.d.ts",
@@ -9,7 +9,7 @@
     "prepublish": "npm run build"
   },
   "author": "Dmitriy Komarov",
-  "homepage": "https://github.com/code-line-numbers",
+  "homepage": "https://github.com/dmitriy-komarov/code-line-numbers",
   "license": "LGPL",
   "dependencies": {
   },

@@ -92,11 +92,11 @@ In order to redefine CSS for skinning purposed redeclare these two CSS selectors
 }
 ```
 
-Hint: setting color for `.hljs-line-numbers__number__zeros` will show leading zeros in line numbers like `042`.
+Hint: setting color for `.code-line-numbers__number__zeros` will show leading zeros in line numbers like `042`.
 
 
 ## License
 
 LGPL license - use it for free.
 
-Star us on [GitHub](https://github.com/edsdk/code-line-numbers) if you like this library.
+Star us on [GitHub](https://github.com/dmitriy-komarov/code-line-numbers) if you like this library.
