@@ -1,0 +1,20 @@
+.code-line-numbers__number {
+    text-align: right;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    color: #8c8c8c;
+    background-color: #efefef;
+    padding: 3px 10px;
+    margin-right: 5px;
+
+}
+
+.code-line-numbers__number__zeros {
+    color: transparent;
+}
