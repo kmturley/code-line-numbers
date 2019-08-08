@@ -32,6 +32,18 @@ $ npm install code-line-numbers
 
 ### Attach to all `<code>` snippets on the page
 
+First add `data-line-numbers="true"` attribute to all your `pre`s you wish to add line numbers to:
+
+```html
+<pre data-line-numbers="true">
+    <code>
+        foo.bar();
+    </code>
+</pre>
+```
+
+Then initialize this library to add the numbers:
+
 ```js
 import {CodeLineNumbers} from "code-line-numbers";
 
