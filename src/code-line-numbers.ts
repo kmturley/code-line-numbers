@@ -11,6 +11,7 @@ export class CodeLineNumbers {
     }
 
     static addLineNumbersTo(elCode: HTMLElement) {
+        if ((elCode.firstChild as HTMLSpanElement).innerHTML === "01") return;
         let lines = elCode.innerHTML.split("\n");
         if (lines.length === 0 || (lines.length === 1 && lines[0].length === 0))
             return;
