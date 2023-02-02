@@ -1,5 +1,3 @@
-import "./style.css";
-
 export class CodeLineNumbers {
 
     static readonly DEFAULT_SELECTOR = "pre > code";

@@ -45,6 +45,7 @@ First add `data-line-numbers="true"` attribute to all your `pre`s you wish to ad
 Then initialize this library to add the numbers:
 
 ```js
+import "code-line-numbers/dist/style.css";
 import {CodeLineNumbers} from "code-line-numbers";
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -77,6 +78,7 @@ CodeLineNumbers.addCodeLineNumbers("pre[data-line-numbers] > code");
 ### Attach to specified `<code>` snippet only
 
 ```js
+import "code-line-numbers/dist/style.css";
 import {CodeLineNumbers} from "code-line-numbers";
 
 var elCode = document.querySelector("code#my-code-example");
