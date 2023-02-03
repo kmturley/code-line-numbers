@@ -12,7 +12,7 @@ export class CodeLineNumbers {
 
     static addLineNumbersTo(elCode: HTMLElement) {
         const el: HTMLSpanElement = elCode.firstChild as HTMLSpanElement;
-        if (el.innerHTML === "01" || el.innerHTML === "1") return;
+        if (el && el.classList && el.classList.contains('hljs-number')) return;
         let lines = elCode.innerHTML.split("\n");
         if (lines.length === 0 || (lines.length === 1 && lines[0].length === 0))
             return;
